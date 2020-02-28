@@ -102,6 +102,7 @@ plt.legend()
 
 plt.subplot(313)
 plt.xlabel("temps (s)")
+plt.ylabel("énergie (J)")
 plt.plot(t,Ec,label="énergie cinétique")
 plt.plot(t,Epp,label="énergie potentielle de pesanteur")
 plt.plot(t,Em,label="énergie mécanique du pendule")
