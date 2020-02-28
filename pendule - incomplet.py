@@ -6,7 +6,7 @@ from math import pi
 m=0.163 # masse en kg
 l=0.52 # longeur du pendule en m
 g= 9.81 # intensité de pesanteur SI
-periode_propre=2*pi*(l/g)**(1/2)
+periode_propre=                   #A compléter
 print("la valeur de la pseudo période propre est: ", periode_propre," s")
 
 # lecture des mesures obtenues avec le gyroscope
