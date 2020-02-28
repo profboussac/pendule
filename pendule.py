@@ -11,7 +11,7 @@ print("la valeur de la pseudo période propre est: ", periode_propre," s")
 
 # lecture des mesures obtenues avec le gyroscope
 # indiquer ci-dessous le chemin du fichier qui contient les mesures
-t,omegax,omegay,omegaz,norme = np.genfromtxt('mesures2.csv', delimiter=';',unpack=True)
+t,omegax,omegay,omegaz,norme = np.genfromtxt('mesures.csv', delimiter=';',unpack=True)
 
 # indiquer ci-dessous le nombre de lignes d'en-tete
 lignes_intro=1
